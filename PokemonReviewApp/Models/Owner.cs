@@ -7,6 +7,8 @@
         public string Name { get; set; }
 
         public string Gym { get; set; }
+        // If it is only one object, just use its prototype
+        public Country Country { get; set; }
     }
 }
 
